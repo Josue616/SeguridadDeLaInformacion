@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Gestión de Riesgos en Dataconsulting</title>
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/dracula.css">
+    <link rel="stylesheet" href="plugin/highlight/monokai.css">
+    <link rel="stylesheet" href="plugin/math/math.css">
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h2>Gestión de Riesgos en Dataconsulting</h2>
+                <p>Exploración detallada de la justificación de activos de alto riesgo.</p>
+                <ul>
+                    <li>Josue Israel Amaya Torres</li>
+					<li>Helbert Andres Condori Loayza</li>
+					<li>Diego Andre Aranda Reyes</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Fórmula de Cálculo de Riesgo</h3>
+                <p>El riesgo se calcula como el producto del impacto y la probabilidad:</p>
+                <p>$$ \text{Riesgo} = \text{Impacto} \times \text{Probabilidad} $$</p>
+            </section>
+
+            <section>
+                <h3>Servidor de Producción</h3>
+                <p>El servidor de producción es crucial para la continuidad operativa. La redundancia y el balanceo de carga aseguran la disponibilidad, mientras que el monitoreo continuo previene vulnerabilidades. Estas medidas son esenciales para mantener la operatividad sin interrupciones (Rodríguez Castro, 2023).</p>
+                <p><img src="images/imagen2.jpg" alt="Servidor de Producción" style="width:30%;"></p>
+            </section>
+
+            <section>
+                <h3>Base de Datos de Producción</h3>
+                <p>La base de datos contiene información crítica. El cifrado y la autenticación multifactor protegen contra accesos no autorizados. Las auditorías en tiempo real son claves para detectar y mitigar brechas de seguridad de manera efectiva (Atlantic Tech, 2023).</p>
+                <p><img src="images/imagen3.jpg" alt="Base de Datos" style="width:25%;"></p>
+            </section>
+
+            <section>
+                <h3>Información Restringida</h3>
+                <p>La información restringida es altamente sensible y su protección es vital para evitar exposiciones. El cifrado y las herramientas de DLP son fundamentales para minimizar riesgos de filtración, reduciendo significativamente la probabilidad de exposición de datos (Red Seguridad, 2023).</p>
+                <p><img src="images/imagen4.jpg" alt="Información Restringida" style="width:25%;"></p>
+            </section>
+			
+			<section>
+                <h3>Cuenta de Azure</h3>
+                <p>La cuenta de Azure es esencial para la escalabilidad y flexibilidad en la nube. La implementación de autenticación multifactor y el uso de políticas de seguridad refuerzan la protección contra accesos no autorizados, reduciendo el riesgo de brechas (Microsoft Azure, 2023).</p>
+                <p><img src="images/imagen5.png" alt="Cuenta de Azure" style="width:30%;"></p>
+            </section>
+
+            <section>
+                <h3>Accesos a Red Privada</h3>
+                <p>Los accesos a la red privada son críticos para la seguridad interna. La implementación de VPNs seguras y la segmentación de red fortalecen la protección contra intrusiones, reduciendo el riesgo de accesos no autorizados (Network World, 2023).</p>
+                <p><img src="images/imagen6.jpg" alt="Accesos a Red Privada" style="width:100%;"></p>
+            </section>
+
+            <section>
+                <h3>Conclusión</h3>
+                <p>La implementación de controles específicos ha permitido a Dataconsulting mitigar significativamente los riesgos asociados a sus activos más críticos, asegurando la continuidad y seguridad de las operaciones.</p>
+            </section>
+
+			<section>
+				<h3>Referencias</h3>
+				<p><small>Rodríguez Castro, J. (2023). Servidor de Producción: Gestión de riesgos y continuidad operativa. Universidad Católica Santo Toribio de Mogrovejo.</small></p>
+				<p><small>Atlantic Tech. (2023). Importancia de la seguridad en bases de datos.</small></p>
+				<p><small>Red Seguridad. (2023). Tendencias en seguridad y privacidad de datos.</small></p>
+				<p><small>Microsoft Azure. (2023). Introducción a la seguridad de Azure.</small></p>
+				<p><small>Network World. (2023). Importancia de la seguridad de red y accesos privados.</small></p>
+			</section>
+        </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script src="plugin/math/math.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ]
+        });
+    </script>
+</body>
+</html>
